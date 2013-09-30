@@ -1,6 +1,6 @@
-# Nerdpress Minimal, an Octopress theme
+# Nerdpress Base, an Octopress theme
 
-This is the first, and most minimal, in what I plan to be a series of similar themes. The idea will be to make this theme a clean, minimal one, with minimal graphics and effects. It could be a good base theme to run with, or used on its own.
+This is the first, and most minimal, in what I plan to be a series of similar themes. The idea will be to make this theme a clean, minimal one, with minimal graphics and effects. It could be a good base theme to run with, or used on its own. This is the very base theme that the rest of the Nerdpress themes are based on.
 
 ## Why "Nerdpress"?
 
@@ -13,6 +13,8 @@ Octopress is popular, but most people stick with Octopress Classic. That's fine 
 ## Features?
 
 The theme uses Octopress Classic's source, so the feature set is still pretty much the same, and, of course, you can still add plugins. Where it's minimal is in its design. Nothing is added unless it's needed, so things like JavaScript libraries are only added once they are required (and in the case of polyfills, are only activated in the browsers that need them). You also won't see much in the way of flashy CSS, or things like @font-face (the nice fonts come from a font stack that looks for a font that is already installed on the person's computer).
+
+This theme doesn't have even jQuery linked, so currently, some plugins may not work properly (namely, the Twitter feed one). If you want to use this theme on its own, then you may want to add jQuery, or a compatible library, to it.
 
 ## Changes
 
